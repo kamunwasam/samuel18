@@ -1,3 +1,17 @@
 body{
-    background-color: rgb(64, 178, 223);
+    background-image:url("w11.jpg");
+}
+ul{
+    font-family: sans-serif;
+    font-weight: bolder;
+    border-style: double ;
+    border-color: blue;
+    text-align: center;
+    
+}
+h1{
+    color: rgb(22, 179, 69)22);
+    text-align: center;
+
+
 }
