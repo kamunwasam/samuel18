@@ -1,6 +1,7 @@
 body
 {
     background-color: rgb(220, 220, 231);
+    
 }
 h1{
    font-family: inherit;}
@@ -15,7 +16,17 @@ ul{
     border-style: solid;
     border-color: rgb(123, 179, 243);
     background-image: url("2.jpg");
+}
     
+    .GA{
+position: absolute;
+width: 100px;
+height: 100px;
+background-color: cadetblue;
+color: darkgoldenrod;
+bottom: 0px;
+animation: mymove 5s infinite;
+    }
     
     
 
