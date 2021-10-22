@@ -1,0 +1,42 @@
+body{
+    background-image: url(../image/ba.jpg);
+}
+.dd{
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(24, 130, 192);
+
+}
+video{
+    
+    border-style: double;
+    border-color: cadetblue;
+    background-color: rgb(8, 61, 63);
+    position: relative; top: -100px;
+    width: 300px;
+    
+}
+audio{
+    position: relative;
+top: -20px; 
+position: relative; right:300px;   
+}
+p{
+    font-family:sans-serif;
+    color: white;
+    position: relative; left: 320px; 
+    position: relative; top:  98px;
+    font-size: larger;
+    
+}
+   
+    
+
+a{
+    font-family: sans-serif;
+    color: rgb(6, 115, 129);
+    position: relative;top: -1px;
+    text-align: center;
+    border: solid;
+    background-color:rgba(74, 74, 77, 0);
+}
