@@ -1,68 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body, html {
-  height: 100%;
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.bg-image {
-  /* The image used */
-  background-image: url("../image/sam.jpg");
-  
-  /* Add the blur effect */
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-  
-  /* Full height */
-  height: 100%; 
-  
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-/* Position text in the middle of the page/image */
-.bg-text {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-  color: white;
-  font-weight: bold;
-  border: 3px solid #f1f1f1;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 80%;
-  padding: 20px;
-  text-align: center;
-}
-</style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>index page</title>
+  <link rel="stylesheet" href="css/one.css">
 </head>
 <body>
-    
-
-<div class="bg-image"></div>
-
-<div class="bg-text">
- <ul>
-    <a style="color: burlywood;"  href="index.html">INDEX <br></a>
-    <a style="color: burlywood;" href="aboutus.html"> ABOUT US <br></a>
-    <a style="color: burlywood;" href="contact.html">CONTACT PAGE <br></a>
-    <a style="color: burlywood;" href="gallary.html">GALLERY PAGE <br></a>
-    <a style="color: burlywood;" href="forms.html">FORM AND TABLE </a>
- </ul>
-
-</div>
-
+  <!--header-->
+  <header>
+    <div class="main">
+      <div class="logo">
+        <img src="../image/techn.svg" alt="logo picure">
+      </div>
+      <ul>
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="gallary.html">gallary</a></li>
+        <li><a href="forms.html">forms</a></li>
+        <li><a href="aboutus.html">about us</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </div>
+    <div class="title">
+      <h1>Welcome to my index page!!</h1>
+    </div>
+  </header>
+  
 </body>
 </html>
